@@ -6,13 +6,13 @@
 /*   By: sakllam <sakllam@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/17 21:04:05 by sakllam           #+#    #+#             */
-/*   Updated: 2021/11/19 04:44:48 by sakllam          ###   ########.fr       */
+/*   Updated: 2021/11/19 04:50:38 by sakllam          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-void	ft_test(char rep, int *count, void *args)
+static void	ft_test(char rep, int *count, void *args)
 {
 	if (rep == 'p')
 		ft_putptr((unsigned long) args, count);
