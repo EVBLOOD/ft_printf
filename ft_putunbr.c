@@ -6,15 +6,16 @@
 /*   By: sakllam <sakllam@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/18 21:51:51 by sakllam           #+#    #+#             */
-/*   Updated: 2021/11/18 21:57:04 by sakllam          ###   ########.fr       */
+/*   Updated: 2021/11/19 03:14:32 by sakllam          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
+
 void	ft_putunbr(unsigned int nbr, int *counter)
 {
 	char	c;
-	
+
 	if (nbr <= 9)
 	{
 		c = '0' + nbr;
